@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>biography</title>
+
+    <script>
+
+        function myFunction() {
+          document.getElementById("partoo").innerHTML = "In my free time, I like drawing mostly characters that I either create or draw ones from different media such as games. I also like to play videogames sometimes if I can, but more often watch gameplays instead. I also like to read about random topics from time to time. Do I remember all of them? no. But it's an interesting to do. I also like quiet places especially if it is surrounded by nature as that kind of environment feels peaceful.";
+        }
+
+ 
+
+    </script>
+
+</head>
+
+<body style="text-align: center; background-color: rgb(75, 40, 51);">
+
+    
+    <h2>- Biography -</h2>
+        <p id="partoo" style="font-size: 17px; font-family: Trebuchet MS;">My name is Anisia Jacob. I went to study in Wishbone Kiddie Camp during my elementary years, and now I am currently
+             a Grade 12 senior high school student from Mary Immaculate Parish Special School, and have always been studying here ever since I began highschool. Right at this present time, I am studying in the strand of Information and Communication
+              Technology, also known as ICT. </p>
+    <button type="button" onclick="myFunction()">next ►</button>
+    <button type="button" onclick="document.getElementById('partoo').style.fontSize='35px'">click to enlarge text ↕</button>            
+    <button type="button" onclick="document.getElementById('partoo').style.display='none'">bye</button>
+        <p id="par" style="display:none">no more ☺</p>
+        <button type="button" onclick="document.getElementById('par').style.display='block'">more</button>
+
+            <br>
+
+        <button onclick="document.getElementById('myImage').src='you-are-dead-dead.gif'">☺</button>
+        <img id="myImage" src="miami-hotline.gif" style="width:100px">
+        <button onclick="document.getElementById('myImage').src='miami-hotline.gif'">☻</button>
+
+</body>
+</html>
